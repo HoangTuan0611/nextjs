@@ -1,12 +1,7 @@
-import * as React from 'react';
+import React from 'react'
 
-export interface IAppProps {
-}
+export interface IAppProps {}
 
-export default function AboutPage (props: IAppProps) {
-  return (
-	<div>
-	  About Page
-	</div>
-  );
+export default function About(props: IAppProps) {
+	return <div>About Page</div>
 }
